@@ -36,7 +36,7 @@
 	<packaging>${packaging.type}</packaging>
 
 	<name>REST service to manage scan results and bugs</name>
-	<description></description>
+	<description/>
 
 	<!-- From url to distMgmt: Identical for root, rest-backend and rest-lib-utils -->
 	<url>https://eclipse.github.io/steady/</url>
@@ -166,7 +166,7 @@
 		<dependency>
 			<groupId>com.jayway.jsonpath</groupId>
 			<artifactId>json-path</artifactId>
-			<version>2.4.0</version>
+			<version>2.9.0</version>
 		</dependency>
 
 		<!-- Swagger core dependencies -->
