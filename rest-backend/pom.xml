@@ -36,7 +36,7 @@
 	<packaging>${packaging.type}</packaging>
 
 	<name>REST service to manage scan results and bugs</name>
-	<description></description>
+	<description/>
 
 	<!-- From url to distMgmt: Identical for root, rest-backend and rest-lib-utils -->
 	<url>https://eclipse.github.io/steady/</url>
@@ -156,7 +156,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-compress</artifactId>
-			<version>1.20</version>
+			<version>1.26.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
