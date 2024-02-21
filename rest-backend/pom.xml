@@ -36,7 +36,7 @@
 	<packaging>${packaging.type}</packaging>
 
 	<name>REST service to manage scan results and bugs</name>
-	<description></description>
+	<description/>
 
 	<!-- From url to distMgmt: Identical for root, rest-backend and rest-lib-utils -->
 	<url>https://eclipse.github.io/steady/</url>
@@ -277,7 +277,7 @@
 				<dependency>
 					<groupId>org.postgresql</groupId>
 					<artifactId>postgresql</artifactId>
-					<version>42.2.14</version>
+					<version>42.7.2</version>
 				</dependency>
 			</dependencies>
 		</profile>
@@ -304,7 +304,7 @@
 				<dependency>
 					<groupId>org.postgresql</groupId>
 					<artifactId>postgresql</artifactId>
-					<version>42.2.14</version>
+					<version>42.7.2</version>
 				</dependency>
 			</dependencies>
 			<build>
