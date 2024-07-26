@@ -36,7 +36,7 @@
 	<packaging>${packaging.type}</packaging>
 
 	<name>REST service to manage scan results and bugs</name>
-	<description></description>
+	<description/>
 
 	<!-- From url to distMgmt: Identical for root, rest-backend and rest-lib-utils -->
 	<url>https://eclipse.github.io/steady/</url>
@@ -178,7 +178,7 @@
 		<dependency>
 			<groupId>io.swagger</groupId>
 			<artifactId>swagger-core</artifactId>
-			<version>1.5.22</version>
+			<version>1.6.12</version>
 		</dependency>
 
 		<!-- SpringFox dependencies -->
