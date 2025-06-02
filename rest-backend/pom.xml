@@ -27,7 +27,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.5.14</version>
-		<relativePath />
+		<relativePath/>
 	</parent>
 
 	<groupId>org.eclipse.steady</groupId>
@@ -36,7 +36,7 @@
 	<packaging>${packaging.type}</packaging>
 
 	<name>REST service to manage scan results and bugs</name>
-	<description></description>
+	<description/>
 
 	<!-- From url to distMgmt: Identical for root, rest-backend and rest-lib-utils -->
 	<url>https://eclipse.github.io/steady/</url>
@@ -148,7 +148,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-compress</artifactId>
-			<version>1.22</version>
+			<version>1.26.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
@@ -165,7 +165,7 @@
 		<dependency>
 			<groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-ui</artifactId>
-            <version>1.2.32</version>
+            <version>1.8.0</version>
         </dependency>
 		
 		<dependency>
@@ -183,7 +183,7 @@
 		<dependency>
 		    <groupId>com.google.guava</groupId>
 		    <artifactId>guava</artifactId>
-		    <version>31.1-jre</version>
+		    <version>32.0.0-jre</version>
 		</dependency>
 
 		<!-- Test dependencies -->
